@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* აქ background color-ი შევცვალე სხვადასხვა ადგილებში */
+  body {
+    background-color: #030303;
+    font-family: arial, Helvetica ;
+  }
+  
+  /* აქ header ელემენტს შევუცვალე ფერი და გავსტილე */
+  header {
+    background-color: #00000000;
+    padding: 20px;
+    text-align: center;
+ 
+  }
+  
+  /* აქ header ფოტოს ანუ ლოგოს გავუწერე max-width-ი 100% */
+  header img {
+    max-width: 100%;
+  }
+  
+  /* აქ nav ტაგს ანუ ერთი ფეიჯიდან მეორეზე ნავიგაციის ტაგს შევუცვალე ფერი და პადინგი და გავცენტრე */
+  nav {
+    background: rgba(7, 155, 61, 0.40);
+    background: linear-gradient(90deg, rgba(7, 155, 61, 0.40) 0%, rgba(8, 91, 106, 0.40) 54%, rgba(9,9,121,0.40) 100%);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* აქ ნავიგაციის ლინკებს შევუცვალე მარჯინი და პადინგი და li თაგი გადავაქციე inline ელემენტად */
+ 
+  nav li {
+    display: inline;
+    margin-right: 10px; }
+  
+         a {
+    color: #c3d615;
+    text-decoration: none;
+    padding: 10px;
+    text-shadow: 2px 2px 4px #ffc402, -2px -2px 4px #ffc402;
+         }
+  /* html კოდში მთავარი ინფორმაცია ჩავსვი main თაგში ამ შემთხვევაში ლინკები, აქ კი მას ზომა და პადინგი შევუცვალე */
+  main {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* აქ h1 ელემენტი გავცენტრე  */
+  h1 {
+    text-align: center}
+    table {
+      /* აქ ცხრილს გავუწერეწ border collapse-ი რათა ცხრილის განყოფილებელი გაერთიანებულიყო და საერთო ბორდერი ქონოდათ*/
+      border-collapse: collapse;
+      width: 1300px;
+      cursor: text;
+    }
+
+    td, th {
+      border:3px solid yellow;
+      text-align: center;
+      padding: 10px;
+    }
+
+    h2 {
+      color: #02bfcc;
+    }
+    .table-center {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: border-box;
+      width: 1300px;
+      box-shadow: 5px 5px 6px #ffc402, -5px -5px 6px #ffc402;
+    }
+
+div {
+  margin-bottom: 50px;
+}
+
+ .links {
+  text-decoration: none;
+  color:#c3d615;
+ }
+
+ .spacing {
+ letter-spacing: 2px;
+ color: #02ccbb;
+ margin-top: 15px;
+ }
+
+ th {
+  letter-spacing: 2px;
+  line-height: 50px;
+ }
+
+ td {
+  letter-spacing: 2px;
+  line-height: 50px;
+ }
+
+ li {
+  line-height: 35px;
+ }
+
+ body {
+  background-image: url(images/istockphoto-1094922834-612x612.jpg);
+ }
+
+ ul {
+  list-style-image: url(images/goa\ \ image\ for\ ul.jpg);
+  list-style-position: inside;
+  
+ }
+
+ 
+ .box {
+  width: 230px;
+  height: 230px;
+  background-color: #202bca00;
+  transition: .1s;
+  cursor: crosshair;
+  margin-left: 30%;
+  margin-right: 0px;
+  margin-bottom: -262px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  
+ }
+
+ .box:hover {
+  background-color:#19657fc7;
+  border-radius: 30%;
+ }
+
+ .box2 {
+  width: 230px;
+  height: 230px;
+  background-color: #202bca00;
+  transition: .1s;
+  cursor: crosshair;
+  margin-left: auto;
+  margin-right: 30%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+ }
+
+ .box2:hover {
+  background-color:#19657fc7;
+  border-radius: 30%;
+ }
+
+.transparent {
+  background: transparent;
+}
+
+h3 {
+ margin-top: 115px;
+ color: rgb(252, 206, 1);
+}
+
+.mainphoto {
+  border-radius: 50%;
+  box-shadow: 5px 5px 6px #068872, -5px -5px 6px #068872;
+}
+
+.pphoto {
+border-radius: 50px;
+box-shadow: 5px 5px 6px #068872, -5px -5px 6px #068872;
+}
+
+.matrix {
+  color: #02ccbb;
+  letter-spacing: 3px;
+}
+
+.box3 {
+  width: 150px;
+  height: 150px;
+  background-color: #202bca00;
+  transition: 0.2s;
+  cursor: crosshair;
+  margin-left: 35%;
+  margin-right: 0px;
+  margin-bottom: -260px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.box3:hover {
+  background-color:#7f1919af;
+  border-radius: 30%;
+}
+
+.box4 {
+  width: 150px;
+  height: 150px;
+  background-color: #202bca00;
+  transition: 0.2s;
+  cursor: crosshair;
+  margin-left: auto;
+  margin-right: 35%;
+  margin-bottom: 60px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.box4:hover {
+  background-color:#19517fb2;
+  border-radius: 30%;
+}
+
+h2 {
+  text-shadow: 1px 1px 6px #028dff, -1px -1px 6px #028dff;
+ }
+
+
+
+.ara {
+  color: #02bfcc;
+  margin-top: 65px;
+  text-shadow: 1px 1px 6px #028dff, -1px -1px 6px #028dff;
+}
+
+
+
+.ki {
+  color: rgb(238, 54, 54);
+  margin-top: 65px;
+  text-shadow: 1px 1px 6px #ff0202, -1px -1px 6px #ff0202;
+}
+
+
+.pilss {
+margin-bottom: 20px;
+border-radius: 30px;
+box-shadow: 5px 5px 6px #068872, -5px -5px 6px #068872;
+    }
+
+
+ .kowaxuri {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: #74cc02;
+  letter-spacing: 2px;
+ }
